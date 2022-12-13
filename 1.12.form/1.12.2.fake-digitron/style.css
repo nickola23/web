@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    display: block;
+    margin: 15px;
+}
