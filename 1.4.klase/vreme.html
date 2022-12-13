@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>To je trenutno vreme!</b></h1>
+    <p class="ps-3">Koliko je sati?</p>
+    <button onclick="vreme1()" class="mx-3">Pokazi vreme</button>
+    <button onclick="vreme2()">Alert vreme</button>
+    <p id="vreme" class="p-3"></p>
+    <p id="sat" class="ps-3"></p>
+    <footer class="text-center fixed-bottom pb-4" id="godina">Copyright </footer>
+    <script>
+        let vreme = new Date();
+        let sat = vreme.getHours();
+        let min = vreme.getMinutes();
+        let sec = vreme.getSeconds();
+        let god = vreme.getFullYear();
+        function vreme1(){
+            document.getElementById("vreme").innerHTML ="Sati je: <br>" + vreme;
+            document.getElementById("sat").innerHTML = `${sat} : ${min} : ${sec}`;
+        }
+        function vreme2(){
+            alert(`Ova stranica je otvorena u ${vreme.toLocaleTimeString()} sati`)
+        }
+        document.getElementById("godina").innerHTML += god;
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+section{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+img{
+    position: relative;
+    display: block;
+    width: 200px;
+}
+#text{
+    position: absolute;
+    display: none;
+    font-weight: bold;
+    width: 100%;
+    top: 35%;
+    left: 35%;
+}
+#btn{
+    display: none;
+}

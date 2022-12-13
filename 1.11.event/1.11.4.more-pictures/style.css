@@ -1,0 +1,17 @@
+section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+img{
+    position: relative;
+    display: block;
+    margin-top: 200px;
+    width: 200px;
+    transition: all ease-in-out 0.5s;
+}

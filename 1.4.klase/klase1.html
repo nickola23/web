@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Danas</p>
+        <p>je</p>
+    </div>
+    <div>
+        <p>jako</p>
+        <p>lep</p>
+        <p>dan</p>
+    </div>
+    <div>
+        <p>.</p>
+        <p>!</p>
+    </div>
+    <script>
+        let p10 = document.body.firstElementChild;
+        let p11 = p10.firstElementChild;
+        let p20 = p10.nextElementSibling;
+        let p21 = p20.firstElementChild;
+        let p22 = p21.nextElementSibling;
+        let p30 = p20.nextElementSibling;
+
+       p11.style.color = "red";
+       p20.style.backgroundColor = "yellow";
+       p22.style.fontSize = "24px";
+       p30.style.backgroundColor = "green";
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1"></h1>
+    <p id="p"></p>
+    <p id="ime">Ovu skriptu je kreirao </p>
+    <p id="tipx">Promenljiva x je tipa: </p>
+    <p id="tipz">Promenljiva y je tipa: </p>
+
+    <script>
+        document.getElementById("h1").innerHTML = "Ovo je moja prva skripta";
+        document.getElementById("p").innerHTML = "Nikola Milanovic";
+        let x = 7;
+        let y = 9;
+        let z = "4";
+        name = "Nikola Milanovic";
+        document.write(y - x + " ");
+        document.write(z + x + y + " ");
+        document.write(y + z + " ");
+        document.getElementById("ime").innerHTML += name;
+        document.getElementById("tipx").innerHTML += typeof(x) + ".";
+        document.getElementById("tipz").innerHTML += typeof(z) + ".";
+        
+    </script>
+</body>
+</html>
