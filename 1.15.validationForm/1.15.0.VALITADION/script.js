@@ -1,4 +1,7 @@
 document.querySelector(`#submit`).addEventListener(`click`, e =>{
+    validation();
+})
+function validation(){
     let name = document.formUser.name.value;
     let email = document.formUser.email.value;
     let number = Number(document.formUser.number.value);
@@ -12,7 +15,7 @@ document.querySelector(`#submit`).addEventListener(`click`, e =>{
         return false;
     }
     
-    if(email.search("@") < 0){
+    if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
         alert(`Not valid email adress!`);
         return false;
     }
@@ -26,4 +29,4 @@ document.querySelector(`#submit`).addEventListener(`click`, e =>{
         alert(`Number out of range!`);
         return false;
     }
-})
+}
