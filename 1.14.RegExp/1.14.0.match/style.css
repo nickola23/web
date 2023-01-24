@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.data{
+    font-weight: bold;
+}
