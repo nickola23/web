@@ -1,0 +1,42 @@
+.banner{
+    width: 32%;
+    height: 40vh;
+    border: gray 1px solid;
+    margin: 15px;
+    margin-bottom: 30px;
+    background-image: url(./images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: left;
+}
+.brind{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    margin: 15px;
+}
+.error{
+    border: red 1px solid;
+}
