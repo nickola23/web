@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form name="formUser" action="">
+                <div class="questions">
+                    <h4>National flag colors:</h4>
+                    <div class="answers">
+                        <div class="option"><input name="color" type="checkbox" value="red"><span class="desc">Crvena</span></div>
+                        <div class="option"><input name="color" type="checkbox" value="yellow"><span class="desc">Zuta</span></div>
+                        <div class="option"><input name="color" type="checkbox" value="blue"><span class="desc">Plava</span></div>
+                        <div class="option"><input name="color" type="checkbox" value="green"><span class="desc">Zelena</span></div>
+                        <div class="option"><input name="color" type="checkbox" value="white"><span class="desc">Bela</span></div>
+                    </div>
+                    <h4>Where in Europe:</h4>
+                    <div class="answers">
+                        <div class="option"><input name="location" type="radio" value="easternEurope" /><span class="desc">Eastern Europe</span></div>
+                        <div class="option"><input name="location" type="radio" value="westEurope" /><span class="desc">West Europe</span></div>
+                        <div class="option"><input name="location" type="radio" value="southeastEurope" /><span class="desc">Southeast Europe</span></div>
+                    </div>
+                    <h4>Best leader:</h4>
+                    <div class="answers">
+                        <div class="option"><input name="leader" type="radio" value="vucic" /><span class="desc">Vucic</span></div>
+                        <div class="option"><input name="leader" type="radio" value="tito" /><span class="desc">Tito</span></div>
+                        <div class="option"><input name="leader" type="radio" value="car" /><span class="desc">Car Dusan Silni</span></div>
+                    </div>
+                </div>
+                <input name="name" type="text" placeholder="Name" />
+                <input name="email" type="text" placeholder="Email" />
+                <select id="city" name="city">
+                    <option selected disabled>Choose city</option>
+                    <option value="beograd" >Beograd</option>
+                    <option value="kragujevac">Kragujevac</option>
+                    <option value="kraljevo">Kraljevo</option>
+                    <option value="noviSad">Novi Sad</option>
+                    <option value="nis">Nis</option>
+                    <option value="subotica">Subotica</option>
+                </select>
+                <input id="submit" type="submit" placeholder="Submit" />
+            </form>
+        </section>
+        <div class="data">
+            
+        </div>
+    </main>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+}
+section{
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+select{
+    margin-top: 15px;
+    width: 86%;
+}
+input{
+    margin: 15px;
+}
+/*.data{
+    width: 60%;
+    height: 100%;
+    border: 2px solid black;
+}*/
