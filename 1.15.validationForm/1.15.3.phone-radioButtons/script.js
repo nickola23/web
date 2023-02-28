@@ -21,7 +21,7 @@ function validateForm(){
         return false;
     }
 
-    if(!/[0-9]{3}[/]?[0-9]{4}[-]?[0-9]{3}/.test(phone)){
+    if(!/[0-9]{3}[/]?[0-9]{4}[-]?[0-9]{3}+$/.test(phone)){
         alert(`Not valid phone number!`);
         return false;
     }
