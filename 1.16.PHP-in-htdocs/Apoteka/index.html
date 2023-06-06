@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./apoteka.css">
+</head>
+<body>
+    <section>
+        <form name="stringNumber" action="./apoteka.php" method = "post">
+            <div class="row">
+                <div class="tableTitle">Artikal</div>
+                <div class="tableTitle">Kolicina</div>
+            </div>
+            <div class="row">
+                <div class="tableField">Andol</div>
+                <div class="tableField"><input name="andol" type="text" /></div>
+            </div>
+            <div class="row">
+                <div class="tableField">Aspirin</div>
+                <div class="tableField"><input name="aspirin" type="text" /></div>
+            </div>
+            <div class="row">
+                <div class="tableField">Vitamin C</div>
+                <div class="tableField"><input name="vitaminC" type="text" /></div>
+            </div>
+            <div class="row">
+                <div class="tableField">Kako ste saznali za nas?</div>
+                <select name="info" class="tableField">
+                    <option value="" selected disabled hidden> </option>
+                    <option value="often"> Ja sam redovan kupac </option>
+                    <option value="ad"> TV reklama </option>
+                    <option value="Had"> Halo oglasi </option>
+                </select>
+            </div>
+            <div class="row jc">
+                <input type="submit" value="Potvrdi">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
